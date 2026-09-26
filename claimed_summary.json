@@ -1,0 +1,15 @@
+{
+  "num_cores": 5,
+  "cases": 100,
+  "evaluated": 100,
+  "errors": 0,
+  "arithmetic_mean_speedup": 4.1452269991522765,
+  "geometric_mean_speedup": 3.9704308741323104,
+  "median_speedup": 4.648988986499898,
+  "min_speedup": 1.5462266440184422,
+  "max_speedup": 5.943638816444768,
+  "baseline_total_cycles": 312479373.0,
+  "optimized_total_cycles": 64191396.0,
+  "total_cycle_ratio": 4.867932347194942,
+  "merged_from_deep": 4
+}
