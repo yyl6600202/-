@@ -1,0 +1,8 @@
+﻿case,improved,current_makespan,new_makespan,new_speedup,rule,added_copy_bytes,num_blocks,evaluated_candidates,error
+case_048,False,175324,175324,1.2674819191896147,group_id_20_uniform_snake,1010264,123,64,
+case_050,True,83280,82168,1.8217554279038068,group_id_12_weighted_cyclic,1161460,142,64,
+case_056,True,197489,191133,1.4507437229573124,group_id_32_weighted_cyclic,2804694,284,64,
+case_068,True,260417,248861,1.4550090211001323,group_id_32_weighted_cyclic,4021384,337,64,
+case_075,True,1126076,1073002,1.3437151095710913,group_id_32_uniform_snake,6861360,275,62,
+case_085,True,2549162,2514429,1.2678421224063197,group_id_32_uniform_cyclic,17973232,532,64,
+case_088,False,161354,161354,1.5098665047039428,group_id_20_weighted_cyclic,2727852,197,64,

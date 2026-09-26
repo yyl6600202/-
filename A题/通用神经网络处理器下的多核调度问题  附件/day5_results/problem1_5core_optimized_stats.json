@@ -1,0 +1,31 @@
+{
+  "num_cores": 5,
+  "num_cases": 100,
+  "errors": 0,
+  "arithmetic_mean_speedup": 2.9145037350231457,
+  "geometric_mean_speedup": 2.5299323872847634,
+  "median_speedup": 3.0917994675457106,
+  "p10_speedup": 1.0,
+  "minimum_speedup": 1.0,
+  "maximum_speedup": 5.411517531202791,
+  "faster_cases": 87,
+  "equal_cases": 13,
+  "slower_cases": 0,
+  "baseline_total_cycles": 312479373,
+  "problem1_total_cycles": 94670035,
+  "aggregate_cycle_ratio": 3.3007210042755344,
+  "cases_with_sweep": 13,
+  "changed_cases": [
+    "case_002",
+    "case_062",
+    "case_063",
+    "case_082",
+    "case_085"
+  ],
+  "selected_rule_counts": {
+    "continuous": 5,
+    "wave": 3,
+    "components": 79,
+    "single": 13
+  }
+}

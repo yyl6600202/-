@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.jj": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/c:\\Users\\xjw\\AppData\\Local\\Temp\\winzips\\{8A5093F0-8DBD-4D4F-BE35-3B9BF6663CC9}\\example.aux": true,
+        "**/c:\\Users\\xjw\\AppData\\Local\\Temp\\winzips\\{8A5093F0-8DBD-4D4F-BE35-3B9BF6663CC9}\\example.log": true,
+        "**/c:\\Users\\xjw\\AppData\\Local\\Temp\\winzips\\{8A5093F0-8DBD-4D4F-BE35-3B9BF6663CC9}\\example.gz": true,
+        "**/c:\\Users\\xjw\\AppData\\Local\\Temp\\winzips\\{8A5093F0-8DBD-4D4F-BE35-3B9BF6663CC9}\\example.out": true
+    }
+}

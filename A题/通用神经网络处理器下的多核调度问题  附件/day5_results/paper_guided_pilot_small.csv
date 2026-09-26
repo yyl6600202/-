@@ -1,0 +1,3 @@
+﻿case,base_makespan,candidate_makespan,candidate_speedup,improved,rule,added_copy_bytes,num_blocks,candidate_count,rejected_count,error
+case_044,131105,127941,1.2068609749806551,True,paper_cpop_root_contiguous_weighted,5776864,32,4,0,
+case_071,16183,33554,0.5638373964355964,False,paper_heft_up_root_contiguous_weighted,715882,31,6,0,

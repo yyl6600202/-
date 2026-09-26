@@ -1,0 +1,6 @@
+﻿case,num_cores,graph_class,rule,num_blocks,baseline_makespan,makespan,speedup,added_copy_bytes,spill_added_copy_bytes,error
+case_093,4,wide_shallow,aligned,16,74205,,,,,EvaluationValidationError: task schedule: dependency cycle; 2 -[core 2 task order]-> 8; 8 -[subgraph dependency]-> 5; 5 -[subgraph dependency]-> 2
+case_093,4,wide_shallow,components,69,74205,31229,2.376156777354382,557056,0,
+case_093,4,wide_shallow,continuous,4,74205,77696,0.9550684719934102,61440,0,
+case_093,4,wide_shallow,single,1,74205,74205,1.0,0,0,
+case_093,4,wide_shallow,wave,4,74205,103717,0.7154564825438453,1978368,0,

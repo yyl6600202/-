@@ -1,0 +1,37 @@
+[
+  {
+    "round": 0,
+    "operator": "start",
+    "objective": [
+      29586,
+      362880,
+      0
+    ],
+    "evaluations": 1
+  },
+  {
+    "round": 1,
+    "operator": "move",
+    "detail": {
+      "node_id": 1568,
+      "source": 1,
+      "target": 2
+    },
+    "objective": [
+      29402,
+      362884,
+      0
+    ],
+    "evaluations": 19
+  },
+  {
+    "round": 2,
+    "operator": "stop",
+    "objective": [
+      29402,
+      362884,
+      0
+    ],
+    "evaluations": 0
+  }
+]

@@ -1,0 +1,3 @@
+﻿case,start_rule,start_makespan,best_makespan,best_added_copy_bytes,best_spill_added_copy_bytes,evaluations,cache_entries,start,best,result,history
+case_001,continuous,58984,58984,3456,0,17,17,day3_results\case_001\cores_4\start_continuous.json,day3_results\case_001\cores_4\best.json,day3_results\case_001\cores_4\best.result.json,day3_results\case_001\cores_4\history.json
+case_010,components,29586,29402,362884,0,20,20,day3_results\case_010\cores_4\start_components.json,day3_results\case_010\cores_4\best.json,day3_results\case_010\cores_4\best.result.json,day3_results\case_010\cores_4\history.json

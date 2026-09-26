@@ -1,0 +1,31 @@
+{
+  "cases": 100,
+  "errors": 0,
+  "num_cores": 5,
+  "arithmetic_mean_speedup": 3.3472322781814925,
+  "geometric_mean_speedup": 2.972707199821768,
+  "median_speedup": 3.71611458584125,
+  "total_cycle_ratio": 3.6321799162923125,
+  "min_speedup": 1.0,
+  "max_speedup": 5.411517531202791,
+  "previous_mean_speedup": 3.3471778955839238,
+  "absolute_mean_gain": 5.43825975687362e-05,
+  "relative_mean_gain": 1.624729825100424e-05,
+  "improved_in_structured_sweep": 1,
+  "winner_rule_counts": {
+    "incumbent": 43,
+    "chain_bytes_root_contiguous": 21,
+    "chain_id_root_contiguous": 1,
+    "chain_id_root_contiguous_weighted": 5,
+    "incumbent_screened_high_speedup": 12,
+    "chain_bytes_root_contiguous_weighted": 6,
+    "chain_id_root_roundrobin_weighted": 3,
+    "chain_id_root_roundrobin": 2,
+    "group_id_12_weighted_cyclic": 1,
+    "group_id_32_weighted_cyclic": 2,
+    "structured_wave_2": 1,
+    "group_id_32_uniform_snake": 1,
+    "chain_id_root_load": 1,
+    "group_id_32_uniform_cyclic": 1
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "num_cores": 5,
+  "num_cases": 100,
+  "errors": 0,
+  "plan_validation_errors": 0,
+  "arithmetic_mean_speedup": 3.3578059791666006,
+  "geometric_mean_speedup": 2.98995576662696,
+  "median_speedup": 3.71611458584125,
+  "p10_speedup": 1.2068609749806551,
+  "minimum_speedup": 1.001797790273469,
+  "maximum_speedup": 5.411517531202791,
+  "faster_cases": 100,
+  "equal_cases": 0,
+  "slower_cases": 0,
+  "baseline_total_cycles": 312479373,
+  "problem1_total_cycles": 85514721,
+  "aggregate_cycle_ratio": 3.654100362439351,
+  "paper_guided_candidates": 52,
+  "paper_guided_accepted_cases": [
+    "case_016",
+    "case_024",
+    "case_044",
+    "case_073",
+    "case_083"
+  ],
+  "paper_guided_accepted_count": 5
+}

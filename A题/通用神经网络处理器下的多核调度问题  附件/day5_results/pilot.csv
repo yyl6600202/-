@@ -1,0 +1,2 @@
+﻿case,graph_class,rule,baseline_makespan,problem1_makespan,speedup,baseline_added_copy_bytes,problem1_added_copy_bytes,problem1_spill_added_copy_bytes,num_blocks,evaluated_candidates,rejected_candidates,selection,error
+case_001,wide_shallow,continuous,233110,47502,4.9073723211654245,0,4608,0,5,5,0,best_official_candidate_with_single_fallback,

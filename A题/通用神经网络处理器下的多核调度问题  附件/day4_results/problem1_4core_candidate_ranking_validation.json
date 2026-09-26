@@ -1,0 +1,38 @@
+{
+  "num_cores": 4,
+  "total_cases": 34,
+  "overall": {
+    "cases": 34,
+    "top2_matches": 26,
+    "top2_plus_single_matches": 30,
+    "full_sweep_mean_speedup": 2.0703355788637796,
+    "top2_mean_speedup": 2.0535605407529967,
+    "top2_plus_single_mean_speedup": 2.0554441713701896
+  },
+  "by_graph_class": {
+    "high_spill_risk": {
+      "cases": 8,
+      "top2_matches": 3,
+      "top2_plus_single_matches": 4,
+      "full_sweep_mean_speedup": 1.0632884818477557,
+      "top2_mean_speedup": 0.9961261282977434,
+      "top2_plus_single_mean_speedup": 1.0
+    },
+    "mixed": {
+      "cases": 5,
+      "top2_matches": 2,
+      "top2_plus_single_matches": 5,
+      "full_sweep_mean_speedup": 1.0104140863529998,
+      "top2_mean_speedup": 1.0038035928796964,
+      "top2_plus_single_mean_speedup": 1.0104140863529998
+    },
+    "wide_shallow": {
+      "cases": 21,
+      "top2_matches": 21,
+      "top2_plus_single_matches": 21,
+      "full_sweep_mean_speedup": 2.706334828324831,
+      "top2_mean_speedup": 2.706334828324831,
+      "top2_plus_single_mean_speedup": 2.706334828324831
+    }
+  }
+}

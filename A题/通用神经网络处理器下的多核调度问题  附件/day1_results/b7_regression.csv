@@ -1,0 +1,4 @@
+﻿"problem","makespan","original_graph_copy_bytes","scheduled_copy_bytes","added_copy_bytes","cache_hits","cache_accesses","result_file"
+"1","6","32","32","0","","","..\_probe_b7\problem_1_res.json"
+"2","6","32","32","0","","","..\_probe_b7\problem_2_res.json"
+"3","6","32","32","0","0","1","..\_probe_b7\problem_3_res.json"

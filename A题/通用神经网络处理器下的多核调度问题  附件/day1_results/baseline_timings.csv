@@ -1,0 +1,8 @@
+﻿"name","scene","makespan","scheduled_copy_bytes","added_copy_bytes","cache_hits","cache_accesses","elapsed_seconds","exit_code","result_file"
+"singlecore_case_001","singlecore","233110","1639552","0","","","0.337","0","day1_results/case_001_singlecore_res.json"
+"problem1_case_001","problem1","256220","4726656","3087104","","","0.346","0","day1_results/case_001_problem1_res.json"
+"problem2_case_001","problem2","193254","4444672","2805120","","","0.314","0","day1_results/case_001_problem2_res.json"
+"problem3_case_001","problem3","189891","4444672","2805120","121","624","0.33","0","day1_results/case_001_problem3_res.json"
+"singlecore_case_010","singlecore","86969","384150","0","","","0.267","0","day1_results/case_010_singlecore_res.json"
+"singlecore_case_051","singlecore","607628","393218","0","","","0.553","0","day1_results/case_051_singlecore_res.json"
+"singlecore_case_067","singlecore","63834834","270497536","264449408","","","26.9","0","day1_results/case_067_singlecore_res.json"

@@ -1,0 +1,297 @@
+{
+  "scene": "B",
+  "problem": 3,
+  "cache_mode": "read_only",
+  "makespan": 517,
+  "num_cores": 2,
+  "bandwidth_bytes_per_cycle": 60,
+  "cache_capacity_bytes": 1048576,
+  "cache_bandwidth_bytes_per_cycle": 250,
+  "cache_stats": {
+    "copy_in_hits": 1,
+    "copy_in_misses": 1,
+    "hit_bytes": 64,
+    "miss_bytes": 64,
+    "cacheable_copy_in_bytes": 128,
+    "hits": 1,
+    "accesses": 2,
+    "hit_rate": 0.5
+  },
+  "cache_events": [
+    {
+      "time": 0,
+      "event": "miss",
+      "tensor_id": 1,
+      "size_bytes": 64,
+      "core_id": 0,
+      "op_id": 17,
+      "op": "COPY_IN"
+    },
+    {
+      "time": 2,
+      "event": "insert",
+      "tensor_id": 1,
+      "size_bytes": 64,
+      "used_bytes": 64,
+      "evicted_tensor_ids": [],
+      "core_id": 0,
+      "op_id": 17
+    },
+    {
+      "time": 508,
+      "event": "hit",
+      "tensor_id": 1,
+      "size_bytes": 64,
+      "core_id": 1,
+      "op_id": 19,
+      "op": "COPY_IN"
+    }
+  ],
+  "cache_final_entries": [
+    {
+      "tensor_id": 1,
+      "size_bytes": 64
+    }
+  ],
+  "cache_used_bytes_final": 64,
+  "capacity_bytes": {
+    "L1": 524288,
+    "UB": 131072
+  },
+  "memory_peak_by_core": {
+    "0": {
+      "L1": 0,
+      "UB": 128
+    },
+    "1": {
+      "L1": 0,
+      "UB": 192
+    }
+  },
+  "step3_by_core": {
+    "0": {
+      "local_makespan": 6,
+      "memory_dependency_count": 0,
+      "pipe_op_counts": {
+        "PIPE_MTE2": 1,
+        "PIPE_MTE3": 1,
+        "PIPE_M": 0,
+        "PIPE_V": 1
+      }
+    },
+    "1": {
+      "local_makespan": 11,
+      "memory_dependency_count": 0,
+      "pipe_op_counts": {
+        "PIPE_MTE2": 2,
+        "PIPE_MTE3": 2,
+        "PIPE_M": 0,
+        "PIPE_V": 2
+      }
+    }
+  },
+  "cross_core_copy_delay_cycles": 500,
+  "cross_task_traffic": 64,
+  "data_movement_bytes": {
+    "original_graph_copy_bytes": 128,
+    "scheduled_copy_bytes": 320,
+    "added_copy_bytes": 192,
+    "partition_added_copy_bytes": 192,
+    "spill_added_copy_bytes": 0,
+    "logical_scheduled_copy_bytes": 384,
+    "logical_added_copy_bytes": 256,
+    "logical_partition_added_copy_bytes": 256,
+    "logical_spill_added_copy_bytes": 0,
+    "physical_ddr_bytes": 320,
+    "physical_ddr_copy_in_bytes": 128,
+    "physical_ddr_copy_out_bytes": 192,
+    "physical_spill_copy_bytes": 0,
+    "cache_read_bytes": 64,
+    "physical_added_copy_bytes": 192
+  },
+  "task_count": 2,
+  "task_dependencies": [
+    {
+      "tensor_id": 2,
+      "size": 64,
+      "source_core": 0,
+      "target_core": 1,
+      "source_copy_out_id": 21,
+      "target_copy_in_id": 22
+    }
+  ],
+  "cross_core_transfers": [
+    {
+      "tensor_id": 2,
+      "size": 64,
+      "source_core": 0,
+      "target_core": 1,
+      "source_copy_out_id": 21,
+      "target_copy_in_id": 22,
+      "transfer_id": 0,
+      "copy_out_end": 6,
+      "copy_in_release": 506,
+      "copy_in_start": 506,
+      "copy_in_end": 508
+    }
+  ],
+  "per_core_timeline": [
+    {
+      "core_id": 0,
+      "tasks": [
+        {
+          "task_id": 0,
+          "subgraph_ids": [
+            0
+          ],
+          "start": 0,
+          "end": 6,
+          "duration": 6
+        }
+      ],
+      "subgraphs": [
+        {
+          "subgraph_id": 0,
+          "start": 0,
+          "end": 6,
+          "duration": 6
+        }
+      ],
+      "ops": [
+        {
+          "task_id": 0,
+          "op_id": 17,
+          "op": "COPY_IN",
+          "subgraph_id": 0,
+          "pipe": "PIPE_MTE2",
+          "start": 0,
+          "end": 2,
+          "duration": 2,
+          "memory_path": "DDR",
+          "cache_hit": false,
+          "cache_tensor_id": 1
+        },
+        {
+          "task_id": 0,
+          "op_id": 11,
+          "op": "ADD",
+          "subgraph_id": 0,
+          "pipe": "PIPE_V",
+          "start": 2,
+          "end": 4,
+          "duration": 2
+        },
+        {
+          "task_id": 0,
+          "op_id": 21,
+          "op": "COPY_OUT",
+          "subgraph_id": 0,
+          "pipe": "PIPE_MTE3",
+          "start": 4,
+          "end": 6,
+          "duration": 2,
+          "memory_path": "DDR"
+        }
+      ]
+    },
+    {
+      "core_id": 1,
+      "tasks": [
+        {
+          "task_id": 1,
+          "subgraph_ids": [
+            1,
+            2
+          ],
+          "start": 506,
+          "end": 517,
+          "duration": 11
+        }
+      ],
+      "subgraphs": [
+        {
+          "subgraph_id": 1,
+          "start": 506,
+          "end": 513,
+          "duration": 7
+        },
+        {
+          "subgraph_id": 2,
+          "start": 508,
+          "end": 517,
+          "duration": 9
+        }
+      ],
+      "ops": [
+        {
+          "task_id": 1,
+          "op_id": 22,
+          "op": "COPY_IN",
+          "subgraph_id": 1,
+          "pipe": "PIPE_MTE2",
+          "start": 506,
+          "end": 508,
+          "duration": 2,
+          "memory_path": "DDR"
+        },
+        {
+          "task_id": 1,
+          "op_id": 12,
+          "op": "MUL",
+          "subgraph_id": 1,
+          "pipe": "PIPE_V",
+          "start": 508,
+          "end": 511,
+          "duration": 3
+        },
+        {
+          "task_id": 1,
+          "op_id": 19,
+          "op": "COPY_IN",
+          "subgraph_id": 2,
+          "pipe": "PIPE_MTE2",
+          "start": 508,
+          "end": 509,
+          "duration": 1,
+          "memory_path": "CACHE_READ",
+          "cache_hit": true,
+          "cache_tensor_id": 1
+        },
+        {
+          "task_id": 1,
+          "op_id": 13,
+          "op": "ADD",
+          "subgraph_id": 2,
+          "pipe": "PIPE_V",
+          "start": 511,
+          "end": 515,
+          "duration": 4
+        },
+        {
+          "task_id": 1,
+          "op_id": 24,
+          "op": "COPY_OUT",
+          "subgraph_id": 1,
+          "pipe": "PIPE_MTE3",
+          "start": 511,
+          "end": 513,
+          "duration": 2,
+          "memory_path": "DDR"
+        },
+        {
+          "task_id": 1,
+          "op_id": 26,
+          "op": "COPY_OUT",
+          "subgraph_id": 2,
+          "pipe": "PIPE_MTE3",
+          "start": 515,
+          "end": 517,
+          "duration": 2,
+          "memory_path": "DDR"
+        }
+      ]
+    }
+  ],
+  "input_graph": "cross_graph.json",
+  "input_plan": "cross_graph_multicore_res.json"
+}

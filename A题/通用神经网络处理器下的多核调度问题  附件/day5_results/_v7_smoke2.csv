@@ -1,0 +1,3 @@
+﻿case,v6_makespan,baseline,best_makespan,best_rule,improved,evaluated,rejected,error,candidates
+case_044,127941,154407,175986,clpt_g,False,2,0,,"[{""rule"": ""clpt_g"", ""est"": 46995, ""makespan"": 175986}, {""rule"": ""cwhole"", ""est"": 63719, ""makespan"": 675680}]"
+case_051,593791,607628,368855,cwhole,True,6,0,,"[{""rule"": ""cwhole"", ""est"": 170552, ""makespan"": 368855}, {""rule"": ""clpt_g"", ""est"": 593260, ""makespan"": 605452}, {""rule"": ""ccomp"", ""est"": 607180, ""makespan"": 607628}, {""rule"": ""ck10"", ""est"": 611180, ""makespan"": 614173}, {""rule"": ""ck07"", ""est"": 614080, ""makespan"": 618051}, {""rule"": ""ck04"", ""est"": 630080, ""makespan"": 641934}]"

@@ -1,0 +1,9 @@
+﻿case,base_makespan,candidate_makespan,candidate_speedup,improved,rule,added_copy_bytes,num_blocks,candidate_count,rejected_count,error
+case_026,42758,62299,1.5923690588934012,False,paper_cpop_root_contiguous_weighted,1277732,31,6,0,
+case_046,131039,141229,1.95749456556373,False,paper_cpop_root_contiguous_weighted,5407840,32,4,0,
+case_048,175324,238154,0.933093712471762,False,paper_heft_up_root_load,239650,31,6,0,
+case_051,593791,604920,1.0044766250082655,False,paper_cpop_root_contiguous_weighted,1179736,22,6,0,
+case_064,18095,28089,0.6805511054149311,False,paper_heft_up_root_load,117162,32,6,0,
+case_069,21040,37077,0.6781562693853332,False,paper_heft_up_root_roundrobin_weighted,981278,32,6,0,
+case_080,119170,198419,1.4723287588386194,False,paper_heft_up_root_contiguous_weighted,9646080,18,6,0,
+case_098,89963,143906,1.2329576251163954,False,paper_cpop_root_roundrobin_weighted,1593598,32,6,0,

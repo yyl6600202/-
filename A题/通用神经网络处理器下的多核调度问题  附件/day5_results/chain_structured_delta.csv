@@ -1,0 +1,4 @@
+﻿case,improved,current_makespan,new_makespan,new_speedup,rule,added_copy_bytes,num_blocks,evaluated_candidates,error
+case_003,False,539607,594345,1.0132364199244546,structured_wave_6,1126260,6,24,
+case_047,False,326508,327264,0.9976899383983573,structured_wave_4,268620,4,24,
+case_069,True,25144,25008,1.0054382597568778,structured_wave_2,169090,2,24,

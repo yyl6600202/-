@@ -1,0 +1,10 @@
+﻿case,num_cores,winner,baseline_makespan,incumbent_makespan,best_chain_rule,best_chain_makespan,best_chain_added_copy_bytes,problem1_makespan,speedup,added_copy_bytes,num_blocks,evaluated_candidates,rejected_candidates,incumbent_plan,error
+case_001,5,incumbent,233110,47502,chain_bytes_root_contiguous,47502,4608,47502,4.9073723211654245,4608,5,14,0,day5_results\problem1_5core_plans\case_001.json,
+case_002,5,chain_bytes_root_contiguous,261945,259045,chain_bytes_root_contiguous,56191,61440,56191,4.661689594419035,61440,19,14,0,day5_results\problem1_5core_optimized_plans\case_002.json,
+case_003,5,incumbent,602212,539607,chain_bytes_root_contiguous,560411,4654110,539607,1.1160196216876357,786432,10,14,0,day5_results\problem1_5core_plans\case_003.json,
+case_004,5,chain_id_root_contiguous,392357,247003,chain_id_root_contiguous,90327,546816,90327,4.343739967008757,546816,7,14,0,day5_results\problem1_5core_plans\case_004.json,
+case_005,5,chain_id_root_contiguous_weighted,95618,95618,chain_id_root_contiguous_weighted,74097,1683818,74097,1.2904436077034158,1683818,84,14,0,day5_results\problem1_5core_plans\case_005.json,
+case_006,5,incumbent,82837,31348,chain_id_root_contiguous_weighted,31615,210616,31348,2.6424971290034454,91264,27,14,0,day5_results\problem1_5core_plans\case_006.json,
+case_007,5,incumbent,1012562,203834,chain_bytes_root_contiguous,203834,110592,203834,4.967581463347626,110592,5,14,0,day5_results\problem1_5core_plans\case_007.json,
+case_008,5,chain_bytes_root_contiguous,487605,134736,chain_bytes_root_contiguous,100603,0,100603,4.846823653370178,0,5,14,0,day5_results\problem1_5core_plans\case_008.json,
+case_010,5,incumbent,86969,29770,chain_bytes_root_contiguous_weighted,34054,150528,29770,2.9213637890493787,362880,36,14,0,day5_results\problem1_5core_plans\case_010.json,

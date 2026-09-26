@@ -1,0 +1,2 @@
+﻿case,num_cores,q2_makespan,q3_makespan,q2_scheduled_copy_bytes,q3_physical_ddr_bytes,cache_hits,cache_accesses,cache_hit_rate,error
+case_085,5,2107651,2107646,5189790,0,19,1161,0.008797206501093512,

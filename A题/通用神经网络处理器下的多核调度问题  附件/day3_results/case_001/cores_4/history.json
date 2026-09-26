@@ -1,0 +1,22 @@
+[
+  {
+    "round": 0,
+    "operator": "start",
+    "objective": [
+      58984,
+      3456,
+      0
+    ],
+    "evaluations": 1
+  },
+  {
+    "round": 1,
+    "operator": "stop",
+    "objective": [
+      58984,
+      3456,
+      0
+    ],
+    "evaluations": 16
+  }
+]
